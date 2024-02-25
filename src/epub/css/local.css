@@ -55,6 +55,10 @@ section{
 	margin-top: 1em;
 }
 
+span > span + span{
+	margin-left: 1.5em;
+}
+
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
