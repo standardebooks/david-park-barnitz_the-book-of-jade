@@ -144,3 +144,15 @@ p span.i15{
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
+
+#prelude{
+	font-style: italic;
+}
+
+#prelude i{
+	font-style: normal;
+}
+
+#ite-missa-est b{
+	font-variant: all-small-caps;
+}
