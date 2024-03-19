@@ -31,43 +31,43 @@
 		<dc:subject id="subject-1">American poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85004382</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Poetry</meta>
+		<dc:description id="description">A collection of decadent poetry by David Park Barnitz.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Anyone who reads &lt;i&gt;The Book of Jade&lt;/i&gt; will quickly notice a few things: the author of this collection of poems holds a pessimistic, misanthropic view of life, and their obsessions lean towards the macabre, particularly focusing on themes of death, darkness, graves, corpses, and a longing to rest among the worms. It presents a world where God is portrayed as foolish, other people as imbeciles, and the fate of the dead as something to be envied. Certainly not light-hearted fare.&lt;/p&gt;
+			&lt;p&gt;Although &lt;i&gt;The Book of Jade&lt;/i&gt; was initially published anonymously, it didn’t take long for readers to discover the identity of its author. The obituary of &lt;a href="https://standardebooks.org/ebooks/david-park-barnitz"&gt;David Park Barnitz&lt;/a&gt;, a young oriental scholar who passed away mere weeks after the release of this collection, revealed him to be the author of this “volume of poems … which was spoken of as of unusual merit.” Though somewhat uneven in quality, the work has garnered admiration from figures such as &lt;a href="https://standardebooks.org/ebooks/h-p-lovecraft"&gt;H. P. Lovecraft&lt;/a&gt;, Donald Wandrei, and Clark Ashton Smith, firmly establishing its place in the decadent literary canon.&lt;/p&gt;
+			&lt;p&gt;This edition includes all the poems of the original 1901 release, as well as the poem “After-Life,” which was published in &lt;i&gt;Overland Monthly&lt;/i&gt;.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/46827</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/bookofjade00gautiala</dc:source>
+		<dc:source>https://archive.org/details/sim_overland-monthly-and-out-west-magazine_1901-01_37_1</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/david-park-barnitz_the-book-of-jade</meta>
 		<dc:creator id="author">David Park Barnitz</dc:creator>
 		<meta property="file-as" refines="#author">Barnitz, David Park</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/David_Park_Barnitz</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Adam Chmielowski</dc:contributor>
+		<meta property="file-as" refines="#artist">Chmielowski, Adam</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Adam Hilary Bernard Chmielowski</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Albert_Chmielowski</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n88258809</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Marc D’Hooghe</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">D’Hooghe, Marc</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Bob Reus</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Reus, Bob</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.bobre.us</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">ann</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
