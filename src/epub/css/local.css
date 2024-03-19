@@ -26,7 +26,8 @@ section#ite-missa-est > *{
 		padding-top: 3em;
 	}
 
-	section[epub|type~="dedication"] > *{
+	section[epub|type~="dedication"] > *,
+	section#ite-missa-est > *{
 		margin: 0;
 	}
 }

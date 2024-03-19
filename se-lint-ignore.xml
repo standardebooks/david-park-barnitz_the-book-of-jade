@@ -3,7 +3,7 @@
 	<file path="part-1.xhtml">
 		<ignore>
 			<code>s-023</code>
-			<reason>Lint incorrectly recognizes Liv as a roman numeral, while it is part of the contracted form of lived.</reason>
+			<reason>Lint incorrectly recognizes “Liv” as a roman numeral.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
