@@ -1,6 +1,8 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* Dedication styling
+Also used for the 'Ita Missa Est' section at the end of part II */
 section[epub|type~="dedication"],
 section#ite-missa-est{
 	text-align: center;
@@ -32,6 +34,11 @@ section#ite-missa-est > *{
 	}
 }
 
+#ite-missa-est b{
+	font-variant: all-small-caps;
+}
+
+/* Poetry styling */
 article,
 section{
 	break-after: page;
@@ -94,6 +101,7 @@ p span.i15{
 	text-align: center;
 }
 
+/* "Dead Dialogue" styling, adapted from drama formatting */
 #dead-dialogue table{
 	border-collapse: collapse;
 	margin: 1em auto;
@@ -146,14 +154,11 @@ p span.i15{
 	font-variant: all-small-caps;
 }
 
+/* Prelude styling */
 #prelude{
 	font-style: italic;
 }
 
 #prelude i{
 	font-style: normal;
-}
-
-#ite-missa-est b{
-	font-variant: all-small-caps;
 }
