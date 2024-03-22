@@ -102,34 +102,34 @@ p span.i15{
 }
 
 /* "Dead Dialogue" styling, adapted from drama formatting */
-#dead-dialogue table{
+table{
 	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
 }
 
-#dead-dialogue tr:first-child td{
+tr:first-child td{
 	padding-top: 0;
 }
 
-#dead-dialogue tr:last-child td{
+tr:last-child td{
 	padding-bottom: 0;
 }
 
-#dead-dialogue td{
+td{
 	padding: .5em;
 	vertical-align: top;
 }
 
-#dead-dialogue td:last-child{
+td:last-child{
 	padding-right: 0;
 }
 
-#dead-dialogue td:first-child{
+td:first-child{
 	padding-left: 0;
 }
 
-#dead-dialogue td[epub|type~="z3998:persona"]{
+td[epub|type~="z3998:persona"]{
 	hyphens: none;
 	-epub-hyphens: none;
 	text-align: right;
@@ -155,7 +155,7 @@ p span.i15{
 }
 
 /* Prelude styling */
-#prelude{
+#prelude p{
 	font-style: italic;
 }
 
