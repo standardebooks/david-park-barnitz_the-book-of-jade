@@ -102,8 +102,7 @@ p span.i15{
 }
 
 /* Drama styling */
-[epub|type~="z3998:drama"] table,
-table[epub|type~="z3998:drama"]{
+[epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
@@ -162,4 +161,19 @@ table[epub|type~="z3998:drama"]{
 
 #prelude i{
 	font-style: normal;
+}
+
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
 }
