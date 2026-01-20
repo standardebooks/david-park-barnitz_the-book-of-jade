@@ -43,7 +43,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/46827</dc:source>
 		<dc:source>https://archive.org/details/bookofjade00gautiala</dc:source>
 		<dc:source>https://archive.org/details/sim_overland-monthly-and-out-west-magazine_1901-01_37_1</dc:source>
-		<meta property="se:word-count">13267</meta>
+		<meta property="se:word-count">13034</meta>
 		<meta property="se:reading-ease.flesch">66.61</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/david-park-barnitz_the-book-of-jade</meta>
 		<dc:creator id="author">David Park Barnitz</dc:creator>
