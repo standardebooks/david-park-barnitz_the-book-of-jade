@@ -50,6 +50,7 @@
 		<meta property="file-as" refines="#author">Barnitz, David Park</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/David_Park_Barnitz</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">Adam Chmielowski</dc:contributor>
 		<meta property="file-as" refines="#artist">Chmielowski, Adam</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Adam Hilary Bernard Chmielowski</meta>
