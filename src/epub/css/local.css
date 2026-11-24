@@ -16,7 +16,7 @@ section#ite-missa-est > *{
 	max-width: 80%;
 }
 
-@supports(display: flex){
+@supports(display: flex) and (min-height: calc(98vh - 3em)){
 	section[epub|type~="dedication"],
 	section#ite-missa-est{
 		align-items: center;
